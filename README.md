@@ -1,1 +1,3 @@
-A template that uses Express, tTRPC, & Prisma for an API and Next.js + tPRC for the frontend
+# express-trpc-prisma-next
+
+A template that uses Express, tTRPC, & Prisma for an API and Next.js + tRPC for the frontend
