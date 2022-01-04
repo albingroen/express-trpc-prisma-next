@@ -1,0 +1,36 @@
+{
+  "name": "client",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@trpc/client": "^9.16.0",
+    "@trpc/next": "^9.16.0",
+    "@trpc/react": "^9.16.0",
+    "@trpc/server": "^9.16.0",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.34.7",
+    "zod": "^3.11.6"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.7",
+    "@types/react": "17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "prettier": "^2.5.1",
+    "typescript": "4.5.4"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "useTabs": false,
+    "tabWidth": 2,
+    "semi": false
+  }
+}
